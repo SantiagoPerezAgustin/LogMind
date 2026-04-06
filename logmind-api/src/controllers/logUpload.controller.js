@@ -8,7 +8,7 @@ async function postUpload(req, res, next) {
   try {
     const file = req.file ?? (req.files && req.files[0]);
     if (!file) {
-      return res.status(400).json({ error: "No file uploaded" });
+      return res.status(400).json({ error: "No tienen archivos subidos" });
     }
 
     const id = path.parse(file.filename).name;
