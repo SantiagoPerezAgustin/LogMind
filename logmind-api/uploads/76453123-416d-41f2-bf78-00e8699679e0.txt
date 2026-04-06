@@ -1,0 +1,74 @@
+Santiago Agustín Perez
+Argentina, Santa Fe, Rosario· linkedin.com/in/santiago-perez-666362282 · 54 9 341 656 9839· santiagus153@gmail.com
+Desarrollador Full Stack especializado en backend con .NET, con formación en la Universidad Tecnológica Nacional.
+Experiencia desarrollando aplicaciones completas utilizando ASP.NET Core, React y SQL Server, aplicando Clean
+Architecture, APIs REST y CI/CD.
+He trabajado en proyectos que integran backend, frontend e inteligencia artificial, incluyendo sistemas de procesamiento de
+documentos mediante OCR y modelos de lenguaje (LLMs).
+Me interesa participar en proyectos donde pueda construir arquitecturas escalables, APIs robustas y soluciones tecnológicas
+modernas.
+Experiencia / Proyectos
+Proyecto Personal – E-commerce Brisa Calzado
+Full Stack Developer (.NET / React)
+Rosario, Argentina · 07/2025 – 12/2025
+● Diseñé y desarrollé una tienda virtual escalable utilizando Clean Architecture separando Domain, Application,
+Infrastructure y Presentation.
+● Implementé API REST con ASP.NET Core 8, Entity Framework y SQL Server.
+● Incorporé autenticación basada en JWT para manejo seguro de usuarios y pedidos.
+● Desarrollé el frontend con React 19, Vite y Tailwind CSS, incluyendo filtros, búsqueda y carrito de compras con
+Context API.
+● Implementé pruebas unitarias para la lógica de negocio.
+● Configuré pipeline de CI/CD con GitHub Actions para automatizar testing y despliegue.
+Proyecto Personal – OCR con Inteligencia Artificial
+AI Full Stack Developer (React / Python / .NET)
+Rosario, Argentina · 2025 – Actualidad
+● Desarrollé una aplicación full stack para procesamiento inteligente de documentos (PDF e imágenes).
+● Implementé un microservicio en Python con FastAPI para extracción de texto usando Tesseract y PyPDF2.
+● Integré modelos de lenguaje (Mistral API) para resumen automático y clasificación documental.
+● Diseñé una arquitectura modular separando frontend, servicio de IA y backend opcional en .NET como gateway.
+● Optimicé el flujo de procesamiento documental, mejorando la eficiencia operativa en aproximadamente 40%.
+BICHTEC – E-commerce Escalable
+Full Stack Developer (.NET / React)
+Rosario, Argentina · 07/2025 – 12/2025
+● Diseñe una arquitectura en capas basada en Clean Architecture.
+● Implementé API REST en ASP.NET Core 8 con Entity Framework y SQL Server optimizado.
+● Incorporé autenticación segura con JWT y control de acceso.
+● Desarrollé frontend moderno con React + Vite, optimizando renderizado y manejo de estado con Context API.
+● Implementé testing unitario para lógica de negocio crítica.
+● Automatización completa de CI/CD mediante GitHub Actions, reduciendo tiempos de despliegue.
+Proyecto – Asistente de Soporte Técnico con RAG
+Tecnologías: Python (FastAPI, LangChain, Ollama), .NET 8, Entity Framework Core, SQL Server, React, n8n, JavaScript,
+HTML/CSS
+● Diseñé e implementé un asistente de soporte técnico basado en arquitectura RAG (Retrieval-Augmented
+Generation) para responder consultas utilizando documentación interna (PDF, Markdown y TXT).
+● Desarrollé un gateway en .NET 8 que conecta el frontend en React con el servicio de IA en Python y gestiona logs de
+conversación en SQL Server, optimizando claves e índices.
+● Construí una interfaz de chat en React con historial de conversaciones, manejo de errores y registro automático de
+interacciones.
+● Implementé un flujo de analítica con n8n que procesa logs desde la API, identifica preguntas frecuentes y envía
+reportes automáticos por email.
+● Diseñé la base de conocimiento de soporte técnico, permitiendo resolver consultas reales de IT (VPN, accesos,
+errores de servidor, recuperación de contraseñas).
+Educación
+Técnico Universitario en Programación
+Universidad Tecnológica Nacional (UTN)
+Rosario, Santa Fe, Argentina
+2024 – 2025
+Stack Tecnológico
+Backend
+.NET 8, ASP.NET Core, Entity Framework, Python (FastAPI)
+Frontend
+React, TypeScript, Vite, Tailwind CSS
+Bases de Datos
+SQL Server, MySQL
+Inteligencia Artificial
+OCR (Tesseract), LLMs (Mistral API)
+DevOps
+Git, GitHub Actions, CI/CD, Azure (básico)
+Arquitectura
+Clean Architecture, APIs REST, separación de responsabilidades
+IDIOMAS
+● Español: Nativo
+● Inglés: Intermedio (B1) – Lectura técnica y comprensión de documentación.
+Rosario, Santa Fe, Argentina
+2024/2025

@@ -1,6 +1,8 @@
 const path = require("path");
 const logUploadService = require("../services/logUpload.service");
 const logParserService = require("../services/logParser.service");
+const config = require("../config/config");
+const aiInsightService = require("../services/aiInsight.service");
 
 async function postUpload(req, res, next) {
   try {
@@ -31,12 +33,30 @@ async function postUpload(req, res, next) {
       summary,
     });
 
+    let aiInsight = meta.aiInsight ?? null;
+    if (config.mistralApiKey) {
+      try {
+        const generated = await aiInsightService.generateInsight(
+          summary,
+          meta.originalName,
+        );
+        if (generated) {
+          await logUploadService.updateAiInsight(meta.id, generated);
+          aiInsight = generated;
+        }
+      } catch (aiErr) {
+        console.error(aiErr);
+        aiInsight = null;
+      }
+    }
+
     res.status(201).json({
       id: meta.id,
       originalName: meta.originalName,
       size: meta.size,
       createdAt: meta.createdAt,
       summary: meta.summary,
+      aiInsight,
     });
   } catch (err) {
     next(err);
